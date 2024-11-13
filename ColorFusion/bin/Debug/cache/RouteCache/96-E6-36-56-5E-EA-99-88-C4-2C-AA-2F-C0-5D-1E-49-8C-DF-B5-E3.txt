@@ -1,0 +1,348 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ_6L2dPoGGTkR7B1xHm4E8Bg",
+         "types" : [ "premise" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJE3iYg1wBGTkRl4zInZ17A5k",
+         "types" : [ "establishment", "health", "point_of_interest", "veterinary_care" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 31.4672966,
+               "lng" : 74.3552847
+            },
+            "southwest" : {
+               "lat" : 31.4401376,
+               "lng" : 74.30392329999999
+            }
+         },
+         "copyrights" : "Map data ©2022",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "7.5 km",
+                  "value" : 7520
+               },
+               "duration" : {
+                  "text" : "20 mins",
+                  "value" : 1182
+               },
+               "end_address" : "Building#28, 17-B1 College Road, near Akbar Chowk, Sector B-1 Block A 1 Phase 1 Johar Town, Lahore, Punjab 54770, Pakistan",
+               "end_location" : {
+                  "lat" : 31.4636419,
+                  "lng" : 74.30502389999999
+               },
+               "start_address" : "C9R2+FG8, Mujahid Rd, Tidlanwali Jhalār Tidlan Wali Jhalar, Lahore, Punjab, Pakistan",
+               "start_location" : {
+                  "lat" : 31.4416143,
+                  "lng" : 74.3509742
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "71 m",
+                        "value" : 71
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 15
+                     },
+                     "end_location" : {
+                        "lat" : 31.4409745,
+                        "lng" : 74.35091489999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e toward \u003cb\u003eMujahid Rd\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "a}{~DqtxdM~BJ"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4416143,
+                        "lng" : 74.3509742
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 433
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 160
+                     },
+                     "end_location" : {
+                        "lat" : 31.4402473,
+                        "lng" : 74.3552847
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at Matab Hakeem Junaid onto \u003cb\u003eMujahid Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Nawaz khan chowk (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "ay{~DetxdMj@}BRoA\\}BJi@BK?E?A?C?C?AACAA?AAA?A?A?A?C?CFa@F]Lm@BIDKFQFk@BO@Q?O?IAa@OaCC["
+                     },
+                     "start_location" : {
+                        "lat" : 31.4409745,
+                        "lng" : 74.35091489999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.9 km",
+                        "value" : 938
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 90
+                     },
+                     "end_location" : {
+                        "lat" : 31.4485776,
+                        "lng" : 74.3537604
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eFerozepur Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eLahore – Kasur Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by کماہاں سپیڈو بس سٹاپ (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "qt{~DooydMiBRc@DoAN[D_@BeAB_ADc@BYB_BH{APiBRc@DiBRaAJE@c@B_AH}CZyBVgAPa@FE@oB\\a@Hi@J"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4402473,
+                        "lng" : 74.3552847
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 172
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 44
+                     },
+                     "end_location" : {
+                        "lat" : 31.4484174,
+                        "lng" : 74.3519618
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eDefence Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by the park (on the right)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "sh}~D_fydM@J@NAd@?@@H@JD^@`@@p@?BBjA?RJt@"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4485776,
+                        "lng" : 74.3537604
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.7 km",
+                        "value" : 1714
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 260
+                     },
+                     "end_location" : {
+                        "lat" : 31.4547877,
+                        "lng" : 74.3356051
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at WAPDA Officer's Hostel onto \u003cb\u003eKacha Jail Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by the pharmacy (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "sg}~DwzxdMMDOFEHABABKZ}@jD?@A@?@A@?@?@A@?@?@A@?@?@A??@?@_@j@i@dC]zAMb@GTaAxDSx@y@tBIXWpAc@`Be@xAQt@SfAY~@EPs@fCOj@w@pCg@pBGTg@~AY|@Sp@o@|BY`AWv@a@~Aa@vAcAnDi@pBi@~BqAzDIVELSt@GN"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4484174,
+                        "lng" : 74.3519618
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 km",
+                        "value" : 732
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 75
+                     },
+                     "end_location" : {
+                        "lat" : 31.4575138,
+                        "lng" : 74.32858689999999
+                     },
+                     "html_instructions" : "At Needle Master Embroidery, continue onto \u003cb\u003eKacha Jail Rd Flyover\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by GNN TV Head Office (on the left in 650m)\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "mo~~DqtudMIZCLELkA~D{AlFs@nCo@`Cu@pCqAbEkAvDk@tB"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4547877,
+                        "lng" : 74.3356051
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 160
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 45
+                     },
+                     "end_location" : {
+                        "lat" : 31.4587912,
+                        "lng" : 74.32935209999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at Chawla Group(Head Office) onto \u003cb\u003eQuaid-E-Azam Boulevard\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Gourmet Free Food Service (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "m`__EuhtdMOEaFkCME"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4575138,
+                        "lng" : 74.32858689999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.3 km",
+                        "value" : 2265
+                     },
+                     "duration" : {
+                        "text" : "5 mins",
+                        "value" : 316
+                     },
+                     "end_location" : {
+                        "lat" : 31.4672744,
+                        "lng" : 74.30764719999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eMaulana Shaukat Ali Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Pakistan Model Public School (on the left in 850m)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "mh__EmmtdMqB~Fc@~AUr@YhAcAxDw@fCg@~Ai@~A}@hD}@jDOl@s@tBGVm@jBwBjISr@a@tA}@|CABq@xBK\\g@nBq@dCi@dBYdAOb@Qj@y@tCMd@{@xCm@pBYpAIZERc@lAgA~DKXUx@{ArFQj@kAvDEN"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4587912,
+                        "lng" : 74.32935209999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "9 m",
+                        "value" : 9
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 2
+                     },
+                     "end_location" : {
+                        "lat" : 31.4671965,
+                        "lng" : 74.30760959999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eService Rd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "m}`_EyepdMLF"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4672744,
+                        "lng" : 74.30764719999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "60 m",
+                        "value" : 60
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 14
+                     },
+                     "end_location" : {
+                        "lat" : 31.4671894,
+                        "lng" : 74.3070433
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at KFC - Akbar Chowk onto \u003cb\u003eService Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Township Office (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "_}`_EqepdMKb@EXAF?F@B?BDDDB@BDL"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4671965,
+                        "lng" : 74.30760959999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 km",
+                        "value" : 694
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 111
+                     },
+                     "end_location" : {
+                        "lat" : 31.4614846,
+                        "lng" : 74.3040783
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e after Agfa Photoshop (on the left)\u003cdiv style=\"font-size:0.9em\"\u003ePass by Punjab services (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : {
+                        "points" : "}|`_E_bpdM~B|@nAh@BBB@xJbEVLfCdA`Br@fFzBx@X"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4671894,
+                        "lng" : 74.3070433
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 272
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 50
+                     },
+                     "end_location" : {
+                        "lat" : 31.4636419,
+                        "lng" : 74.30502389999999
+                     },
+                     "html_instructions" : "Make a \u003cb\u003eU-turn\u003c/b\u003e at Shalimar Steel &amp; wooden (Office Furniture)\u003cdiv style=\"font-size:0.9em\"\u003ePass by Furnitureforyou (on the right)\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "uturn-right",
+                     "polyline" : {
+                        "points" : "gy__EooodMK^{@_@{D_BkD{A"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4614846,
+                        "lng" : 74.3040783
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "a}{~DqtxdM~BJj@}Bp@mEN}@EU?KN_APw@L]J{@@a@Ak@S}CmCXkBTeBF}EVsI~@kDZwGr@iBXaEt@BZAf@BTF`ADtCJt@MDOFEHCFiAfEADADEJ?B_@j@i@dCk@~BiAnESx@y@tBa@jBiAzDe@|BcBdG_BbGo@tBwBnH_D~KsApF{ArEa@rA_BvFuFpS}CzJk@tBOEoFqCqB~Fc@~Ao@|BcAxDw@fCqA~D{BtIOl@s@tBu@bCkC~J_BrFs@|Bs@lCeCtIuC`KgAbEOn@c@lAgA~Da@rAmB~GqAfELFKb@G`@@JDHFFDL~B|@rAl@|JdEhNbGx@XK^wF_CkD{A"
+         },
+         "summary" : "Maulana Shaukat Ali Rd",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

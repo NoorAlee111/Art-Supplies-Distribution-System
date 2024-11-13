@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "F9MW+P2G",
+               "short_name" : "F9MW+P2G",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Lahore",
+               "short_name" : "Lahore",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lahore",
+               "short_name" : "Lahore",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Punjab",
+               "short_name" : "Punjab",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Pakistan",
+               "short_name" : "PK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "F9MW+P2G Lahore, Pakistan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 31.484325,
+                  "lng" : 74.3950938
+               },
+               "southwest" : {
+                  "lat" : 31.4843,
+                  "lng" : 74.39506249999999
+               }
+            },
+            "location" : {
+               "lat" : 31.4843125,
+               "lng" : 74.39507809999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 31.4856614802915,
+                  "lng" : 74.39642713029151
+               },
+               "southwest" : {
+                  "lat" : 31.4829635197085,
+                  "lng" : 74.39372916970849
+               }
+            }
+         },
+         "place_id" : "GhIJQ4ts5_t7P0ARaben9UiZUkA",
+         "plus_code" : {
+            "compound_code" : "F9MW+P2G Lahore, Pakistan",
+            "global_code" : "8J3PF9MW+P2G"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

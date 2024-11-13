@@ -1,0 +1,300 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJE3iYg1wBGTkRl4zInZ17A5k",
+         "types" : [ "establishment", "health", "point_of_interest", "veterinary_care" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ_6L2dPoGGTkR7B1xHm4E8Bg",
+         "types" : [ "premise" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 31.4676963,
+               "lng" : 74.3519469
+            },
+            "southwest" : {
+               "lat" : 31.4409745,
+               "lng" : 74.30502389999999
+            }
+         },
+         "copyrights" : "Map data ©2022",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "6.7 km",
+                  "value" : 6718
+               },
+               "duration" : {
+                  "text" : "18 mins",
+                  "value" : 1105
+               },
+               "end_address" : "C9R2+FG8, Mujahid Rd, Tidlanwali Jhalār Tidlan Wali Jhalar, Lahore, Punjab, Pakistan",
+               "end_location" : {
+                  "lat" : 31.4416143,
+                  "lng" : 74.3509742
+               },
+               "start_address" : "Building#28, 17-B1 College Road, near Akbar Chowk, Sector B-1 Block A 1 Phase 1 Johar Town, Lahore, Punjab 54770, Pakistan",
+               "start_location" : {
+                  "lat" : 31.4636419,
+                  "lng" : 74.30502389999999
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 472
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 93
+                     },
+                     "end_location" : {
+                        "lat" : 31.4675162,
+                        "lng" : 74.30705089999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e on \u003cb\u003eCollege Road\u003c/b\u003e toward \u003cb\u003eAftab Ahmad Butt Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eSt 20\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Ittehad Aluminium lahore (on the right)\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "wf`_EkuodMKG{Ao@CCcBq@cDsA{Aq@g@UCAECcFwBIEICMC"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4636419,
+                        "lng" : 74.30502389999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.3 km",
+                        "value" : 2347
+                     },
+                     "duration" : {
+                        "text" : "5 mins",
+                        "value" : 323
+                     },
+                     "end_location" : {
+                        "lat" : 31.4590023,
+                        "lng" : 74.32932599999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eMaulana Shaukat Ali Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Hamid Saeed Custom Tailoring (on the right in 550m)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "__a_EabpdMQBQ?FSRs@v@qC|@aD`B}F|@wChAuDPq@|@}CpBqHDM@Ah@iB@GBMJm@DIjAoDX}@H]h@oBLa@Pk@Ty@DMDKp@yB~@oDf@iBl@{Bl@aCh@cBPi@`BgGp@wBfDkLdAsDf@sBn@uAzAqF"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4675162,
+                        "lng" : 74.30705089999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 175
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 45
+                     },
+                     "end_location" : {
+                        "lat" : 31.4575866,
+                        "lng" : 74.3286234
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eQuaid-E-Azam Boulevard\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Gourmet Free Food Service (on the right)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "wi__EimtdMFADAF?F?J?LD`FjC"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4590023,
+                        "lng" : 74.32932599999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 km",
+                        "value" : 734
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 77
+                     },
+                     "end_location" : {
+                        "lat" : 31.4548464,
+                        "lng" : 74.33566429999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eKacha Jail Rd Flyover\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by AW Chemicals - Chemical Traders (on the left in 400m)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "}`__E{htdMn@{BfAaEdBmG`AmDVy@rAgEr@qCHUDO|@wCDKBMJY"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4575866,
+                        "lng" : 74.3286234
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.7 km",
+                        "value" : 1693
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 244
+                     },
+                     "end_location" : {
+                        "lat" : 31.4486574,
+                        "lng" : 74.3519469
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eKacha Jail Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by AW Chemicals-Chemical wholesaler (on the right)\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "yo~~D{tudMDQPs@DK`@eAL_@Xy@FWJa@vAqF|A{Fp@aCHYnA}DlAoEJ]d@}AZiADQJa@L_@T}@XeAPo@Pu@f@oCLa@Pk@J]^mATgA@EPo@\\w@Xs@`BoGfBqHbAoCZgADS@O"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4548464,
+                        "lng" : 74.33566429999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 365
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 96
+                     },
+                     "end_location" : {
+                        "lat" : 31.4458928,
+                        "lng" : 74.34991219999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at Ali Ali Juice Corner\u003cdiv style=\"font-size:0.9em\"\u003ePass by Munna Bhai Fresh Burger Point (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ci}~DuzxdMPJ@Bb@j@LNVTDDDDBBPJJFn@\\DBd@TFD|@b@x@f@f@\\d@Zx@f@x@d@"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4486574,
+                        "lng" : 74.3519469
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "12 m",
+                        "value" : 12
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 2
+                     },
+                     "end_location" : {
+                        "lat" : 31.445833,
+                        "lng" : 74.3500224
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at Supreme Foods. toward \u003cb\u003eDefence Rd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "yw|~D}mxdMJU"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4458928,
+                        "lng" : 74.34991219999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 508
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 105
+                     },
+                     "end_location" : {
+                        "lat" : 31.4418163,
+                        "lng" : 74.3474703
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eDefence Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Dr saeed clinic (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "mw|~DsnxdMTLb@Tl@\\d@Vn@^`@TPJXP^R`@RXNx@`@VL\\Ph@VNHRNLFJFHBj@VjAt@~@j@^T"
+                     },
+                     "start_location" : {
+                        "lat" : 31.445833,
+                        "lng" : 74.3500224
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 341
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 105
+                     },
+                     "end_location" : {
+                        "lat" : 31.4409745,
+                        "lng" : 74.35091489999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at Hafiz photocopy and pco onto \u003cb\u003eMujahid Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Mahi Graphics Studio (on the right)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "k~{~Du~wdMTcADYHc@H_@C[Ji@BQJk@F]F_@n@mE`@}B"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4418163,
+                        "lng" : 74.3474703
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "71 m",
+                        "value" : 71
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 15
+                     },
+                     "end_location" : {
+                        "lat" : 31.4416143,
+                        "lng" : 74.3509742
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at Matab Hakeem Junaid",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "ay{~DetxdM_CK"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4409745,
+                        "lng" : 74.35091489999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "wf`_EkuodM{NkG}FeCMCQBQ?FSjAeE~C_LfCmInAoEbDkLVmAdBmFr@mCz@uCv@eCfByGzA}Fz@mC`BgGp@wBlF_Rf@sBn@uAzAqFFALAR?nFpCvB}HfD{LjBaG|@gDbAgDZeAV_An@eB`@qAbBsGnC}JxAwEzCuKt@qCj@uBx@eEjAyDVmAPo@\\w@Xs@`BoGfBqHbAoC`@{A@OPJd@n@d@d@`@ZfB~@dAh@`BdA~AbAx@d@JUx@b@rAt@|BrAdGzCv@b@j@VjAt@~A`An@aDC[Ji@BQjAwH`@}B_CK"
+         },
+         "summary" : "Maulana Shaukat Ali Rd and Kacha Jail Rd",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

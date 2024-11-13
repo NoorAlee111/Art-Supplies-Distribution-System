@@ -1,0 +1,349 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJE3iYg1wBGTkRl4zInZ17A5k",
+         "types" : [ "establishment", "health", "point_of_interest", "veterinary_care" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJAX-sZNsDGTkRH6HqKpB_bmo",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 31.4864429,
+               "lng" : 74.3069778
+            },
+            "southwest" : {
+               "lat" : 31.4636419,
+               "lng" : 74.2811119
+            }
+         },
+         "copyrights" : "Map data ©2022",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "5.1 km",
+                  "value" : 5109
+               },
+               "duration" : {
+                  "text" : "12 mins",
+                  "value" : 724
+               },
+               "end_address" : "Plot 54, Block G Phase 1 Johar Town, Lahore, Punjab, Pakistan",
+               "end_location" : {
+                  "lat" : 31.47518789999999,
+                  "lng" : 74.28224430000002
+               },
+               "start_address" : "Building#28, 17-B1 College Road, near Akbar Chowk, Sector B-1 Block A 1 Phase 1 Johar Town, Lahore, Punjab 54770, Pakistan",
+               "start_location" : {
+                  "lat" : 31.4636419,
+                  "lng" : 74.30502389999999
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 452
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 72
+                     },
+                     "end_location" : {
+                        "lat" : 31.4673501,
+                        "lng" : 74.3069778
+                     },
+                     "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e on \u003cb\u003eCollege Road\u003c/b\u003e toward \u003cb\u003eAftab Ahmad Butt Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eSt 20\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Ittehad Aluminium lahore (on the right)\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "wf`_EkuodMKG{Ao@CCcBq@cDsA{Aq@g@UCAECcFwB"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4636419,
+                        "lng" : 74.30502389999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "86 m",
+                        "value" : 86
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 22
+                     },
+                     "end_location" : {
+                        "lat" : 31.4677362,
+                        "lng" : 74.30622649999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at Bismillah UPS toward \u003cb\u003eMaulana Shaukat Ali Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Actma Food Point (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "}}`_EsapdMCBCBG@C?A@CBADMb@CJ_@nA"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4673501,
+                        "lng" : 74.3069778
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "11 m",
+                        "value" : 11
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 2
+                     },
+                     "end_location" : {
+                        "lat" : 31.46782439999999,
+                        "lng" : 74.3062697
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at ACTMA College toward \u003cb\u003eMaulana Shaukat Ali Rd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "k`a_E}|odMOG"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4677362,
+                        "lng" : 74.30622649999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.5 km",
+                        "value" : 2476
+                     },
+                     "duration" : {
+                        "text" : "6 mins",
+                        "value" : 330
+                     },
+                     "end_location" : {
+                        "lat" : 31.4864135,
+                        "lng" : 74.2934994
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at Four Stroke Riders onto \u003cb\u003eMaulana Shaukat Ali Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Muneeb ceramics (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "{`a_Ee}odM_@nAe@dBSp@Oh@MZENSZ[f@]b@KJGHMLIF[TYPSJe@Pa@PQD_@NWF_APeARu@P_@HMDOBa@LODeANgB\\w@VqInBsAXyBb@s@Nm@Nw@TwAd@aBd@{Bl@_Cp@kA\\{A\\WJKDOHYRo@j@_A|@c@f@u@v@IHaA`AwAtAq@r@{AzAaA~@OJA@c@\\{@v@[XYZOLKJQNONoArAi@h@oAtA}ApAg@`@u@p@y@v@uAlA"
+                     },
+                     "start_location" : {
+                        "lat" : 31.46782439999999,
+                        "lng" : 74.3062697
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "23 m",
+                        "value" : 23
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 3
+                     },
+                     "end_location" : {
+                        "lat" : 31.4864421,
+                        "lng" : 74.29325609999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto the ramp to \u003cb\u003eCanal Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eChaakar-i-Azam Rind Underpass\u003c/b\u003e",
+                     "maneuver" : "ramp-left",
+                     "polyline" : {
+                        "points" : "aud_EkmmdMC\\AP"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4864135,
+                        "lng" : 74.2934994
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.1 km",
+                        "value" : 1078
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 86
+                     },
+                     "end_location" : {
+                        "lat" : 31.4815883,
+                        "lng" : 74.2834915
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e and merge onto \u003cb\u003eCanal Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eChaakar-i-Azam Rind Underpass\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Canal Rd\u003c/div\u003e",
+                     "maneuver" : "keep-right",
+                     "polyline" : {
+                        "points" : "gud_E{kmdM?B?N?F?F@FBD@F~@zAh@lAnA`D?@?BABC@LVb@x@jD`IR\\BDz@nBzAfDdCrGhEzLn@nB"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4864421,
+                        "lng" : 74.29325609999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 244
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : {
+                        "lat" : 31.4804973,
+                        "lng" : 74.28126759999999
+                     },
+                     "html_instructions" : "Take the ramp to \u003cb\u003eAbdul Haque Rd\u003c/b\u003e",
+                     "maneuver" : "ramp-left",
+                     "polyline" : {
+                        "points" : "}vc_EynkdM^l@b@dAf@tAp@jBf@vARl@"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4815883,
+                        "lng" : 74.2834915
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 472
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 85
+                     },
+                     "end_location" : {
+                        "lat" : 31.4765394,
+                        "lng" : 74.28120670000001
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at Mental Health and Well Being onto \u003cb\u003eAbdul Haque Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Summit Bank (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "cpc_E}`kdM\\NRNDCNEzAg@DATIh@SdAi@l@YHGLEDAFAD?P?F@RDRBfDdAv@TjBj@"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4804973,
+                        "lng" : 74.28126759999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "80 m",
+                        "value" : 80
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : {
+                        "lat" : 31.4763658,
+                        "lng" : 74.2820251
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at AS International Education Consultant\u003cdiv style=\"font-size:0.9em\"\u003ePass by Halal Bussines (on the right)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "kwb_Eq`kdM`@}C?E"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4765394,
+                        "lng" : 74.28120670000001
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "73 m",
+                        "value" : 73
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 28
+                     },
+                     "end_location" : {
+                        "lat" : 31.4760883,
+                        "lng" : 74.2827271
+                     },
+                     "html_instructions" : "Continue straight",
+                     "maneuver" : "straight",
+                     "polyline" : {
+                        "points" : "ivb_EuekdMv@kC"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4763658,
+                        "lng" : 74.2820251
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "54 m",
+                        "value" : 54
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 19
+                     },
+                     "end_location" : {
+                        "lat" : 31.4756153,
+                        "lng" : 74.2826005
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at MovieTides",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "qtb_EajkdM|AX"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4760883,
+                        "lng" : 74.2827271
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "60 m",
+                        "value" : 60
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 25
+                     },
+                     "end_location" : {
+                        "lat" : 31.47518789999999,
+                        "lng" : 74.28224430000002
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "sqb_EgikdMFLDHDHLJ\\LRH@@"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4756153,
+                        "lng" : 74.2826005
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "wf`_EkuodM{NkGiF{BGFQFs@dCOG_@nAy@vC]dAYj@y@jASTWTu@f@y@\\s@Vw@VeCd@sBd@q@RmDl@w@VqInBmE|@aB^oCz@iLbDsBh@[NiA~@cBdByExEmCnCqAjA}BpBgAdAyEbFeCrBoBhBuAlAC\\AT@f@DL~@zAh@lAnAbDAFC@LVnEzJnDzHdCrGhEzLn@nB^l@jAzCxAbERl@\\NRNDCjBm@ZKnB}@v@a@RGLAX@f@H~EzAjBj@`@}Cv@qC|AXFLJRLJ\\LTJ"
+         },
+         "summary" : "Maulana Shaukat Ali Rd",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

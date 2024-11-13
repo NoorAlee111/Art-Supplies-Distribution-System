@@ -1,0 +1,74 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Defence Road",
+               "short_name" : "Defence Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Quaid e Millat Colony",
+               "short_name" : "Quaid e Millat Colony",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Lahore",
+               "short_name" : "Lahore",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lahore Cantt",
+               "short_name" : "Lahore Cantt",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Lahore",
+               "short_name" : "Lahore",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Punjab",
+               "short_name" : "Punjab",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Pakistan",
+               "short_name" : "PK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Defence Rd, Quaid e Millat Colony, Lahore, Punjab, Pakistan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 31.44847540000003,
+                  "lng" : 74.35222639999999
+               },
+               "southwest" : {
+                  "lat" : 31.43822289999998,
+                  "lng" : 74.3451372
+               }
+            },
+            "location" : {
+               "lat" : 31.4432619,
+               "lng" : 74.3484247
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 31.44847540000003,
+                  "lng" : 74.35222639999999
+               },
+               "southwest" : {
+                  "lat" : 31.43822289999998,
+                  "lng" : 74.3451372
+               }
+            }
+         },
+         "place_id" : "EjtEZWZlbmNlIFJkLCBRdWFpZCBlIE1pbGxhdCBDb2xvbnksIExhaG9yZSwgUHVuamFiLCBQYWtpc3RhbiIuKiwKFAoSCUflOromBxk5EcqSy4OmNnwYEhQKEglXgGTu6wYZORE20a4tSuAXFw",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

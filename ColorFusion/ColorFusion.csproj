@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D4469002-F3BA-469C-89BE-15F7E731DBF2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ColorFusion</RootNamespace>
+    <AssemblyName>ColorFusion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.Core, Version=2.1.7.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.Core.2.1.7\lib\net472\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms, Version=2.1.7.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.WinForms.2.1.7\lib\net472\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsPresentation, Version=2.1.7.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.WinPresentation.2.1.7\lib\net472\GMap.NET.WindowsPresentation.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.5\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.3\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.115.5\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.115.5\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployee.Designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFuelInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFuelInfo.Designer.cs">
+      <DependentUpon>AddFuelInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddInInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddInInventory.Designer.cs">
+      <DependentUpon>AddInInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddRider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRider.Designer.cs">
+      <DependentUpon>AddRider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllDeliveredOrdersOfRider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllDeliveredOrdersOfRider.Designer.cs">
+      <DependentUpon>AllDeliveredOrdersOfRider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllOrders.Designer.cs">
+      <DependentUpon>AllOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllRiders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllRiders.Designer.cs">
+      <DependentUpon>AllRiders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area.Designer.cs">
+      <DependentUpon>Area.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assign.Designer.cs">
+      <DependentUpon>Assign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssignedAreas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignedAreas.Designer.cs">
+      <DependentUpon>AssignedAreas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssignOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignOrders.Designer.cs">
+      <DependentUpon>AssignOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssignRoute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignRoute.Designer.cs">
+      <DependentUpon>AssignRoute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BL\EmailSending.cs" />
+    <Compile Include="BookOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookOrder.Designer.cs">
+      <DependentUpon>BookOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data Structure\AdjacencyList.cs" />
+    <Compile Include="Data Structure\Graph.cs" />
+    <Compile Include="Data Structure\MinimumSpanningTree.cs" />
+    <Compile Include="Deliveries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deliveries.Designer.cs">
+      <DependentUpon>Deliveries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditEmployee.Designer.cs">
+      <DependentUpon>EditEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditProduct.Designer.cs">
+      <DependentUpon>EditProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditRider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditRider.Designer.cs">
+      <DependentUpon>EditRider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeAccount.Designer.cs">
+      <DependentUpon>EmployeeAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeePerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeePerformance.Designer.cs">
+      <DependentUpon>EmployeePerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fuel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fuel.Designer.cs">
+      <DependentUpon>Fuel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FuelConsumption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FuelConsumption.Designer.cs">
+      <DependentUpon>FuelConsumption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrdersToDeliver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrdersToDeliver.Designer.cs">
+      <DependentUpon>OrdersToDeliver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products.Designer.cs">
+      <DependentUpon>Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Re-Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re-Order.Designer.cs">
+      <DependentUpon>Re-Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Re-order_Requests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re-order_Requests.Designer.cs">
+      <DependentUpon>Re-order_Requests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RetailersPurchases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RetailersPurchases.Designer.cs">
+      <DependentUpon>RetailersPurchases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RiderAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RiderAccount.Designer.cs">
+      <DependentUpon>RiderAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RiderPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RiderPerformance.Designer.cs">
+      <DependentUpon>RiderPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales.Designer.cs">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShiftChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShiftChange.Designer.cs">
+      <DependentUpon>ShiftChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storage.Designer.cs">
+      <DependentUpon>Storage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuppliersReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuppliersReport.Designer.cs">
+      <DependentUpon>SuppliersReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeOrder.Designer.cs">
+      <DependentUpon>TakeOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewEmployees.Designer.cs">
+      <DependentUpon>ViewEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BL\Employee.cs" />
+    <Compile Include="BL\Fuel.cs" />
+    <Compile Include="BL\Manager.cs" />
+    <Compile Include="BL\Product.cs" />
+    <Compile Include="BL\Rider.cs" />
+    <Compile Include="BL\Shop.cs" />
+    <Compile Include="BL\User.cs" />
+    <Compile Include="Data Structure\AvlTree.cs" />
+    <Compile Include="DL\AllOrdersDL.cs" />
+    <Compile Include="DL\InventoryDL.cs" />
+    <Compile Include="DL\UserDL.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerAccount.Designer.cs">
+      <DependentUpon>ManagerAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewRiders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewRiders.Designer.cs">
+      <DependentUpon>ViewRiders.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddEmployee.resx">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFuelInfo.resx">
+      <DependentUpon>AddFuelInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInInventory.resx">
+      <DependentUpon>AddInInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRider.resx">
+      <DependentUpon>AddRider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllDeliveredOrdersOfRider.resx">
+      <DependentUpon>AllDeliveredOrdersOfRider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllOrders.resx">
+      <DependentUpon>AllOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllRiders.resx">
+      <DependentUpon>AllRiders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area.resx">
+      <DependentUpon>Area.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assign.resx">
+      <DependentUpon>Assign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignedAreas.resx">
+      <DependentUpon>AssignedAreas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignOrders.resx">
+      <DependentUpon>AssignOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignRoute.resx">
+      <DependentUpon>AssignRoute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookOrder.resx">
+      <DependentUpon>BookOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deliveries.resx">
+      <DependentUpon>Deliveries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditEmployee.resx">
+      <DependentUpon>EditEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditProduct.resx">
+      <DependentUpon>EditProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditRider.resx">
+      <DependentUpon>EditRider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeAccount.resx">
+      <DependentUpon>EmployeeAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeePerformance.resx">
+      <DependentUpon>EmployeePerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fuel.resx">
+      <DependentUpon>Fuel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FuelConsumption.resx">
+      <DependentUpon>FuelConsumption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrdersToDeliver.resx">
+      <DependentUpon>OrdersToDeliver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products.resx">
+      <DependentUpon>Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re-Order.resx">
+      <DependentUpon>Re-Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re-order_Requests.resx">
+      <DependentUpon>Re-order_Requests.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RetailersPurchases.resx">
+      <DependentUpon>RetailersPurchases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiderAccount.resx">
+      <DependentUpon>RiderAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiderPerformance.resx">
+      <DependentUpon>RiderPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales.resx">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShiftChange.resx">
+      <DependentUpon>ShiftChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage.resx">
+      <DependentUpon>Storage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuppliersReport.resx">
+      <DependentUpon>SuppliersReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeOrder.resx">
+      <DependentUpon>TakeOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewEmployees.resx">
+      <DependentUpon>ViewEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerAccount.resx">
+      <DependentUpon>ManagerAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ViewRiders.resx">
+      <DependentUpon>ViewRiders.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-facilitator-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-airport-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-airport-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-box-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-box-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-circled-right-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-forward-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-life-cycle-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-life-cycle-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-67 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-67.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-motorcycle-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-motorcycle-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-open-box-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-open-box-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pencil-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pencil-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-right-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-right-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-right-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-runway-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-send-mail-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-send-mail-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-truck-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-truck-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-facilitator-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-holding-box-30 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-holding-box-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-info-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-info-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-near-me-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-price-tag-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-price-tag-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-product-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-profit-report-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-profit-report-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-shipping-location-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-shipping-location-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-total-sales-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-total-sales-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-what-i-do-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-what-i-do-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-buy-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-buy-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-male-user-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-fuel-64.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>

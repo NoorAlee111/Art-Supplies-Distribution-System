@@ -1,0 +1,277 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJpY6M7tQDGTkREAt561nlgmE",
+         "types" : [ "establishment", "food", "point_of_interest", "restaurant" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJLQd50MQDGTkRI8pY--MRRB8",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 31.4776547,
+               "lng" : 74.2812385
+            },
+            "southwest" : {
+               "lat" : 31.4663152,
+               "lng" : 74.2668336
+            }
+         },
+         "copyrights" : "Map data ©2022",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "2.5 km",
+                  "value" : 2454
+               },
+               "duration" : {
+                  "text" : "8 mins",
+                  "value" : 496
+               },
+               "end_address" : "Plot 195, Block G1 Block G 1 Phase 1 Johar Town, Lahore, Punjab, Pakistan",
+               "end_location" : {
+                  "lat" : 31.4776504,
+                  "lng" : 74.28015379999999
+               },
+               "start_address" : "Shop 209, Food Court, Emporium Mall, 16M Abdul Haque Rd, Trade Centre Commercial Area Phase 2 Johar Town, Lahore, Punjab, Pakistan",
+               "start_location" : {
+                  "lat" : 31.4678511,
+                  "lng" : 74.2668371
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 176
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 53
+                     },
+                     "end_location" : {
+                        "lat" : 31.4663152,
+                        "lng" : 74.26709869999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDrive along Emporium (on the right for 160m)\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "aaa_EwfhdMj@KnASXGTCFAF?D?B@@B@@@@@@@?B@HArAQ"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4678511,
+                        "lng" : 74.2668371
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "33 m",
+                        "value" : 33
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 15
+                     },
+                     "end_location" : {
+                        "lat" : 31.4663912,
+                        "lng" : 74.2674367
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "ow`_EkhhdMMcA"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4663152,
+                        "lng" : 74.26709869999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 221
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 65
+                     },
+                     "end_location" : {
+                        "lat" : 31.4683075,
+                        "lng" : 74.2668336
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "}w`_EojhdMuCl@O@wAXKBOBu@LUHYN"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4663912,
+                        "lng" : 74.2674367
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 309
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 80
+                     },
+                     "end_location" : {
+                        "lat" : 31.4689944,
+                        "lng" : 74.26998979999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Red Rock Tandoori Chai (on the right)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "}ca_EufhdMGg@CUk@gEQsAG_@SaBIo@WkB"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4683075,
+                        "lng" : 74.2668336
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "10 m",
+                        "value" : 10
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 2
+                     },
+                     "end_location" : {
+                        "lat" : 31.4690834,
+                        "lng" : 74.2699535
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at Dr.Faisal Liaqat Rana (UK based Specialist Dentist) dental and implant centre (Johar Town ) onto \u003cb\u003eFatimiyya Rd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "eha_EmzhdMQF"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4689944,
+                        "lng" : 74.26998979999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.5 km",
+                        "value" : 1525
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 238
+                     },
+                     "end_location" : {
+                        "lat" : 31.4770937,
+                        "lng" : 74.2812385
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at the 1st cross street onto \u003cb\u003eAbdul Haque Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Abdul Haque (on the right)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "wha_EezhdMYLc@kC_@iCa@}CWmBESEc@EWAQOaAIq@_@{BM{@QuA?CGe@o@qEMoAOg@IYWk@KUOSUWOMYOwAeAuByAm@c@o@c@_B{@MKEAmGiDe@Ww@a@e@U}As@y@Ws@QiBu@"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4690834,
+                        "lng" : 74.2699535
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "54 m",
+                        "value" : 54
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 17
+                     },
+                     "end_location" : {
+                        "lat" : 31.4771408,
+                        "lng" : 74.2806666
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at Shaukat Khanum Laboratory Collection Centre",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "yzb_Ew`kdMAPEp@Al@"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4770937,
+                        "lng" : 74.2812385
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "60 m",
+                        "value" : 60
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 11
+                     },
+                     "end_location" : {
+                        "lat" : 31.4776547,
+                        "lng" : 74.2808527
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at Lancer's Corner\u003cdiv style=\"font-size:0.9em\"\u003ePass by Mobylogix (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "c{b_Ee}jdMMCwA_@"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4771408,
+                        "lng" : 74.2806666
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "66 m",
+                        "value" : 66
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 15
+                     },
+                     "end_location" : {
+                        "lat" : 31.4776504,
+                        "lng" : 74.28015379999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at AomataTech - Lahore Office\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "i~b_Ei~jdM?B?fC"
+                     },
+                     "start_location" : {
+                        "lat" : 31.4776547,
+                        "lng" : 74.2808527
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "aaa_EwfhdMjDk@TAHHP@rAQMcAeDn@iDn@o@XK}@yA}Ka@{Ck@TcAuGy@kGSaBgAkHiAqIMoAOg@a@eA[i@e@e@uGsEoC_BSMqKyF}As@y@Ws@QiBu@GbAAl@MCwA_@?B?fC"
+         },
+         "summary" : "Abdul Haque Rd",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

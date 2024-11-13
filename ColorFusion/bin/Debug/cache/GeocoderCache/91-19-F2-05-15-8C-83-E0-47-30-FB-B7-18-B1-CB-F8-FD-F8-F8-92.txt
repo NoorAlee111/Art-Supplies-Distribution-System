@@ -1,0 +1,160 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "54000",
+               "short_name" : "54000",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "Lahore",
+               "short_name" : "Lahore",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lahore",
+               "short_name" : "Lahore",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Punjab",
+               "short_name" : "Punjab",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Pakistan",
+               "short_name" : "PK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Lahore, Punjab 54000, Pakistan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 31.60925569999999,
+                  "lng" : 74.408593
+               },
+               "southwest" : {
+                  "lat" : 31.472901,
+                  "lng" : 74.264883
+               }
+            },
+            "location" : {
+               "lat" : 31.5440886,
+               "lng" : 74.3839007
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 31.60925569999999,
+                  "lng" : 74.408593
+               },
+               "southwest" : {
+                  "lat" : 31.472901,
+                  "lng" : 74.264883
+               }
+            }
+         },
+         "place_id" : "ChIJRX3P62oFGTkRBviLWHxBNe0",
+         "postcode_localities" : [
+            "Abdul Ali Khan Colony",
+            "Allama Iqbal Town",
+            "Angoori Bagh",
+            "Arya Nagar",
+            "Askari 1",
+            "Baghbanpura",
+            "Bahar Colony",
+            "Baitul Raza Colony",
+            "Begumpura",
+            "Bilal Ganj",
+            "Chauburji Quarters",
+            "China Scheme",
+            "Combo Colony",
+            "Daroghawala",
+            "Daroghe Wala",
+            "Data Gunj Buksh Town",
+            "Dilkusha Park",
+            "F.C.C.",
+            "Fazlia Colony",
+            "Firdous Colony",
+            "G.O.R. - I",
+            "Garden Town",
+            "Garhi Shahu",
+            "Gawalmandi",
+            "Ghoray Shah",
+            "Ghulam Nabi Colony",
+            "Gor 2",
+            "Gujjarpura",
+            "Gulberg III",
+            "Gulfishan Colony",
+            "Gulshan-e-Ravi",
+            "Gunj",
+            "Hameedpura",
+            "Ideal Homes",
+            "Islamia Park",
+            "Islampura",
+            "Ittehad Colony",
+            "Jubilee Town",
+            "Khan Colony",
+            "Khokhar Town",
+            "Kot Kamboh",
+            "Kot Khawaja Saeed",
+            "Krishan Nagar",
+            "Madina Colony Baghbanpura",
+            "Manzoor Park",
+            "Mehar Fiaz Colony Bb",
+            "Mehmood Booti",
+            "Misri Shah",
+            "Mozang Chungi",
+            "Mughalpura",
+            "Muhammadi Mohalla",
+            "Muslim Colony",
+            "Muslim Town",
+            "Muslim Town",
+            "Nagra Town",
+            "National Bank Staff Colony",
+            "National Town",
+            "Naulakha",
+            "New Chauburji Park",
+            "New Mazang",
+            "Pakistan Mint Colony",
+            "Police Lines",
+            "Post & Telegraph Colony",
+            "Qila Gujjar Singh",
+            "Railway Wireless Colony",
+            "Rajgarh",
+            "Ramgarh",
+            "Rasool Park",
+            "Rehman Park",
+            "Rehmanpura Colony",
+            "Rewaz Gardens",
+            "Royal Park",
+            "Saint Nagar",
+            "Samanabad Town",
+            "Sanda",
+            "Sanda",
+            "Sanda Khurd",
+            "Shadipura",
+            "Shadman",
+            "Shahid Park",
+            "Shalamar Town",
+            "Shalimar Housing Scheme",
+            "Shalimar Larechs Colony",
+            "Shera Kot",
+            "Singhpura",
+            "Sodhiwal",
+            "Staff Houses Engineering University Lahore",
+            "Victoria Park",
+            "WAPDA Town",
+            "Wagha Town",
+            "Wahdat Colony",
+            "Walled City of Lahore",
+            "Zaitoon Colony",
+            "Zaman Park"
+         ],
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,184 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "17-8-B1",
+               "short_name" : "17-8-B1",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "College Road",
+               "short_name" : "College Road",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Block A",
+               "short_name" : "Block A",
+               "types" : [ "political", "sublocality", "sublocality_level_3" ]
+            },
+            {
+               "long_name" : "Phase 1",
+               "short_name" : "Phase 1",
+               "types" : [ "political", "sublocality", "sublocality_level_2" ]
+            },
+            {
+               "long_name" : "Johar Town",
+               "short_name" : "Johar Town",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Lahore",
+               "short_name" : "Lahore",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lahore Cantt",
+               "short_name" : "Lahore Cantt",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Lahore",
+               "short_name" : "Lahore",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Punjab",
+               "short_name" : "Punjab",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Pakistan",
+               "short_name" : "PK",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "54770",
+               "short_name" : "54770",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "17-8-B1 College Road, Block A Phase 1 Johar Town, Lahore, Punjab 54770, Pakistan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 31.46661589999999,
+                  "lng" : 74.3064567
+               },
+               "southwest" : {
+                  "lat" : 31.4664054,
+                  "lng" : 74.3061563
+               }
+            },
+            "location" : {
+               "lat" : 31.4665157,
+               "lng" : 74.30629829999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 31.4678596302915,
+                  "lng" : 74.30767668029151
+               },
+               "southwest" : {
+                  "lat" : 31.4651616697085,
+                  "lng" : 74.3049787197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJB-OsLFQBGTkRENf9zLFweLk",
+         "types" : [ "premise" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "B1",
+               "short_name" : "B1",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "College Road",
+               "short_name" : "College Road",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sector B-1",
+               "short_name" : "Sector B-1",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Block A 1",
+               "short_name" : "Block A 1",
+               "types" : [ "political", "sublocality", "sublocality_level_3" ]
+            },
+            {
+               "long_name" : "Phase 1",
+               "short_name" : "Phase 1",
+               "types" : [ "political", "sublocality", "sublocality_level_2" ]
+            },
+            {
+               "long_name" : "Johar Town",
+               "short_name" : "Johar Town",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Lahore",
+               "short_name" : "Lahore",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lahore Cantt",
+               "short_name" : "Lahore Cantt",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Lahore",
+               "short_name" : "Lahore",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Punjab",
+               "short_name" : "Punjab",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Pakistan",
+               "short_name" : "PK",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "54770",
+               "short_name" : "54770",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "B1 College Road, Sector B-1 Block A 1 Phase 1 Johar Town, Lahore, Punjab 54770, Pakistan",
+         "geometry" : {
+            "location" : {
+               "lat" : 31.46356029999999,
+               "lng" : 74.30475299999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 31.4648726802915,
+                  "lng" : 74.30619598029149
+               },
+               "southwest" : {
+                  "lat" : 31.4621747197085,
+                  "lng" : 74.30349801970848
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJVybIr1cBGTkRmtH6Zk7lGQ8",
+         "plus_code" : {
+            "compound_code" : "F873+CW Lahore, Pakistan",
+            "global_code" : "8J3PF873+CW"
+         },
+         "types" : [ "establishment", "home_goods_store", "point_of_interest", "store" ]
+      }
+   ],
+   "status" : "OK"
+}

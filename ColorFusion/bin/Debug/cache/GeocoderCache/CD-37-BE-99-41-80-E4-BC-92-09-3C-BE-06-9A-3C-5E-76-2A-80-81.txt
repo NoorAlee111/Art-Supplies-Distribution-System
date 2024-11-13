@@ -1,0 +1,78 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "192a",
+               "short_name" : "192a",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Multan Road",
+               "short_name" : "Multan Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Baitul Raza Colony",
+               "short_name" : "Baitul Raza Colony",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Lahore",
+               "short_name" : "Lahore",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lahore City",
+               "short_name" : "Lahore City",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Lahore",
+               "short_name" : "Lahore",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Punjab",
+               "short_name" : "Punjab",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Pakistan",
+               "short_name" : "PK",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "54000",
+               "short_name" : "54000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "192a Multan Rd, Baitul Raza Colony, Lahore, Punjab 54000, Pakistan",
+         "geometry" : {
+            "location" : {
+               "lat" : 31.5285446,
+               "lng" : 74.28504480000001
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 31.5299146302915,
+                  "lng" : 74.28635328029151
+               },
+               "southwest" : {
+                  "lat" : 31.5272166697085,
+                  "lng" : 74.2836553197085
+               }
+            }
+         },
+         "place_id" : "ChIJM86qZBQDGTkRobjLNFj1X4s",
+         "plus_code" : {
+            "compound_code" : "G7HP+C2 Lahore, Pakistan",
+            "global_code" : "8J3PG7HP+C2"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}
